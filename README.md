@@ -17,7 +17,7 @@
 ## 快速开始
 
 ```bash
-git clone https://gitee.com/niumg9527/login-animation.git
+git clone https://github.com/lvyac/login-animation.git
 npm install
 npm run dev
 ```
