@@ -5,6 +5,10 @@
 
 > 使用 Vue 3 + TypeScript + 原生 CSS。
 
+## 界面预览
+
+![登录界面](./image.png)
+
 ## 特性
 
 - 👀 角色眼睛跟随鼠标移动
@@ -43,7 +47,7 @@ import LoginPage from './components/LoginPage.vue'
 
 const loginRef = ref()
 
-async function handleLogin({ email, password, remember }) {
+async function handleLogin({ username, password, remember }) {
   loginRef.value.setLoading(true)
   // 在这里写你的认证逻辑
   loginRef.value.setLoading(false)
@@ -73,10 +77,10 @@ import AnimatedCharacters from './components/AnimatedCharacters.vue'
 
 | 属性 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|
-| `brandName` | `string` | `'YourBrand'` | 品牌名称 |
-| `title` | `string` | `'Welcome back!'` | 主标题 |
-| `subtitle` | `string` | `'Please enter your details'` | 副标题 |
-| `emailPlaceholder` | `string` | `'you@example.com'` | 邮箱输入框占位符 |
+| `brandName` | `string` | `'管理系统'` | 品牌名称 |
+| `title` | `string` | `'欢迎回来！'` | 主标题 |
+| `subtitle` | `string` | `'请输入您的登录信息'` | 副标题 |
+| `usernamePlaceholder` | `string` | `'请输入用户名'` | 用户名输入框占位符 |
 | `primaryColor` | `string` | `'#4f46e5'` | 主题色，用于按钮和左侧面板 |
 | `showGoogleLogin` | `boolean` | `true` | 是否显示 Google 登录按钮 |
 
@@ -84,7 +88,7 @@ import AnimatedCharacters from './components/AnimatedCharacters.vue'
 
 | 事件 | 参数 | 说明 |
 |------|------|------|
-| `submit` | `{ email, password, remember }` | 表单提交时触发 |
+| `submit` | `{ username, password, remember }` | 表单提交时触发 |
 
 ## LoginPage 暴露方法
 
