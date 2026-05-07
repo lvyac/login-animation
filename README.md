@@ -9,6 +9,8 @@
 
 ![登录界面](./image.png)
 
+**在线体验**: https://static-mp-ff561441-7ed2-45f9-ac68-98f038e67dcc.next.bspapp.com/#/
+
 ## 特性
 
 - 👀 角色眼睛跟随鼠标移动
